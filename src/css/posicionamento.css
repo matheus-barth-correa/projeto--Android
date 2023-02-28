@@ -1,0 +1,46 @@
+section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 87%;
+    padding: 25px;
+    margin: 30px 0 0 0 ;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 40px 0 0 0 ;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+nav > a {
+ text-decoration: none;
+ color: black;
+}
+iframe {
+    width: 100%;
+    border-radius: 15px;
+    height: 500px;
+    border: 1px solid black;
+}
+    

@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: 'titulo-principal' ;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'mensagem' ;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'textos' ;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'titulos-secundarios' ;
+    src: url(fonts/static/PlayfairDisplay-BlackItalic.ttf);
+}
+@font-face {
+    font-family:'navegação' ;
+    src: url(fonts/static/Oswald-Bold.ttf);
+}
+:root {
+    --titulo-principal: 'titulo-principal';
+    --titulos-secundarios:'titulos-secundarios' ;
+    --botoes-de-navegação:'navegação' ;
+    --mensagem:'mensagem';
+    --textos: 'textos';
+
+    --cor-1: rgb(35, 196, 35);
+    --cor-2: rgba(3, 146, 3, 0.846);
+    --cor-3: rgb(240, 232, 232);
+    --cor-4: white;
+    --cor-5:black;
+}
+section {
+    background-color: var(--cor-3);
+}
+header  {
+    background-color: var(--cor-2);
+}
+header > nav {
+    background-color: var(--cor-1);
+}
+h1 {
+    color: var(--cor-5);
+    font: normal bold 3em var(--titulo-principal);
+    text-shadow: 8px 3px 1px var(--cor-3);
+}
+div > p {
+    color:var(--cor-5);
+    font: normal normal 1.5em var(--mensagem);
+    
+}
+nav > a {
+    color:var(--cor-3);
+    font: normal normal 1em var(--botoes-de-navegação);
+}
+section > h2 {
+    color:var(--cor-5);
+    font: normal bold 20px var(--titulos-secundarios);
+}
+p {
+    color:var(--cor-5);
+    font: italic normal 16px var(--textos);
+}
+
